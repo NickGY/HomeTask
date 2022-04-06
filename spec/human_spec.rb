@@ -1,6 +1,6 @@
 require 'spec_helper'
 require_relative '../human'
-require 'pry'
+
 
 RSpec.describe Human do  
   let!(:human) { Human.new }
